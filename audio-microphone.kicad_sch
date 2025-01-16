@@ -1445,7 +1445,7 @@
 				)
 			)
 		)
-		(symbol "antmicroWire2BoardConnectors:JST_SH_1x5_BM05B-SURS-TB-LF-SN"
+		(symbol "antmicroWire2BoardConnectors:JST_SUR_1x5_BM05B-SURS-TB-LF-SN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1459,7 +1459,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "JST_SH_1x5_BM05B-SURS-TB-LF-SN"
+			(property "Value" "JST_SUR_1x5_BM05B-SURS-TB-LF-SN"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -1470,7 +1470,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x5_BM05B-SURS-TF-LF-SN"
+			(property "Footprint" "antmicro-footprints:Conn_JST_SUR_1x5_BM05B-SURS-TF-LF-SN"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -1555,7 +1555,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST_SH_1x5_BM05B-SURS-TB-LF-SN_1_1"
+			(symbol "JST_SUR_1x5_BM05B-SURS-TB-LF-SN_1_1"
 				(rectangle
 					(start 2.54 -12.573)
 					(end 3.81 -12.827)
@@ -3497,6 +3497,140 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroWire2BoardConnectors:JST_SUR_1x5_BM05B-SURS-TB-LF-SN")
+		(at 194.31 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7034e755-8fa8-4ce8-95ed-f36818e0be3c")
+		(property "Reference" "J1"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SUR_1x5_BM05B-SURS-TB-LF-SN"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_JST_SUR_1x5_BM05B-SURS-TF-LF-SN"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/09/eSUR-new.pdf"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 0.5 mm, 1 Rows, 5 Contacts, Surface Mount Vertical, SUR"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" " BM05B-SURS-TF(LF)(SN)"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "JST Automotive Connectors"
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "570dce19-87bf-4ece-957f-2441606dbfa9")
+		)
+		(pin "3"
+			(uuid "e4ff11a6-b439-49f4-bcc0-914e64995d45")
+		)
+		(pin "1"
+			(uuid "3403d006-1dbe-41e0-9f39-54933bd94565")
+		)
+		(pin "4"
+			(uuid "9384ca51-329f-4227-89a2-603edd90a8d8")
+		)
+		(pin "5"
+			(uuid "3d075e14-e698-4f68-b240-df73c0a6d646")
+		)
+		(pin "MP"
+			(uuid "98b99455-8d26-4d6e-b6f7-c6b92afde9f1")
+		)
+		(instances
+			(project ""
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
 		(at 167.64 143.51 270)
 		(unit 1)
@@ -3709,140 +3843,6 @@
 			(project "audio-microphone"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x5_BM05B-SURS-TB-LF-SN")
-		(at 194.31 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b391d0d-35d1-4d65-aa82-e95a2831e209")
-		(property "Reference" "J1"
-			(at 200.66 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SH_1x5_BM05B-SURS-TB-LF-SN"
-			(at 214.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x5_BM05B-SURS-TF-LF-SN"
-			(at 214.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/09/eSUR-new.pdf"
-			(at 214.63 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 0.5 mm, 1 Rows, 5 Contacts, Surface Mount Vertical, SUR"
-			(at 214.63 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" " BM05B-SURS-TF(LF)(SN)"
-			(at 200.66 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "JST Automotive Connectors"
-			(at 214.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 214.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bc6873b-87aa-436c-a803-7ae69b828730")
-		)
-		(pin "MP"
-			(uuid "50b4ecef-07c0-49fd-a5de-ec521119a755")
-		)
-		(pin "5"
-			(uuid "a60e1d60-b255-460f-b2f7-3156d247fe48")
-		)
-		(pin "2"
-			(uuid "7ca50787-0376-4983-99bd-53b3fc2f72c7")
-		)
-		(pin "3"
-			(uuid "295c4d35-2513-4e63-a5bb-e735084b4bab")
-		)
-		(pin "4"
-			(uuid "87b9f6df-5a98-4764-b04a-730f5e114b0d")
-		)
-		(instances
-			(project ""
-				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
-					(reference "J1")
 					(unit 1)
 				)
 			)

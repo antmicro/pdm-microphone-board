@@ -59,8 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|201940001|139365001|06a3fae9-fc10-497f-9c35-4b8a199899ab|b2729040-dc00-4d87-af76-ea832f121a11",
-        "silk_edge_clearance|203049155|141081037|59ea90d9-81ce-4c0b-8570-25e820755303|3d2ca788-4ddc-4731-ab5d-d17c72284cf5"
+        "courtyards_overlap|239140000|141865000|8675db4b-c4cd-4e65-b34c-dc31d41500cf|f92ed4a5-225f-4f56-bb1e-02c0d239bfdd"
       ],
       "meta": {
         "version": 2
@@ -526,7 +525,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": ""
+      "vrml": "audio-microphone.wrl"
     },
     "page_layout_descr_file": ""
   },
