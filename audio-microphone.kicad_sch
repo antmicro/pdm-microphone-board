@@ -2726,7 +2726,7 @@
 		(uuid "24d37215-78da-42da-bf33-6ce9fd38bb44")
 	)
 	(label "WS"
-		(at 182.88 95.25 0)
+		(at 182.88 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,7 +2770,7 @@
 		(uuid "89bb700c-b1fc-48b6-a7c5-5ba197809d1d")
 	)
 	(label "BCLK"
-		(at 182.88 97.79 0)
+		(at 182.88 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
