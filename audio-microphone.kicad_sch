@@ -628,7 +628,7 @@
 				)
 			)
 		)
-		(symbol "antmicroFerriteBeadsandChips:FB_600Z_0.5A_Murata-BLM18AG_0603"
+		(symbol "antmicroFerriteBeadsandChips:FB_600Z_0.3A_Murata-BLM15AG_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -644,7 +644,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "FB_600Z_0.5A_Murata-BLM18AG_0603"
+			(property "Value" "FB_600Z_0.3A_Murata-BLM15AG_0402"
 				(at 15.24 -2.54 0)
 				(effects
 					(font
@@ -655,7 +655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:FB_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:FB_0402_1005Metric"
 				(at 15.24 -7.62 0)
 				(effects
 					(font
@@ -666,7 +666,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf"
+			(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796740059166/ENFA0018.pdf"
 				(at 15.24 -10.16 0)
 				(effects
 					(font
@@ -677,7 +677,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ferrite Bead, 0603 [1608 Metric], 600 ohm, 500 mA, BLM18A, 0.38 ohm, ± 25%, General use"
+			(property "Description" "Ferrite Bead, 0402 [1005 Metric], 600 ohm, 300 mA, BLM15AG_SN, 0.6 ohm, ± 25%, General use"
 				(at 0 0 0)
 				(effects
 					(font
@@ -686,7 +686,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "600Z/0.5A"
+			(property "Val" "600Z/0.3A"
 				(at 15.24 -5.08 0)
 				(effects
 					(font
@@ -695,7 +695,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "BLM18AG601SN1D"
+			(property "MPN" "BLM15AG601SN1D"
 				(at 15.24 -12.7 0)
 				(effects
 					(font
@@ -750,7 +750,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0603, SMT, FERRITE BEAD, PASSIVE"
+			(property "ki_keywords" "0402, SMT, FERRITE BEAD, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -759,7 +759,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FB_600Z_0.5A_Murata-BLM18AG_0603_0_1"
+			(symbol "FB_600Z_0.3A_Murata-BLM15AG_0402_0_1"
 				(polyline
 					(pts
 						(xy 1.651 0) (xy 1.2446 0)
@@ -797,7 +797,7 @@
 					)
 				)
 			)
-			(symbol "FB_600Z_0.5A_Murata-BLM18AG_0603_1_1"
+			(symbol "FB_600Z_0.3A_Murata-BLM15AG_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -2694,7 +2694,6 @@
 	)
 	(label "DATA"
 		(at 182.88 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2705,7 +2704,6 @@
 	)
 	(label "DATA"
 		(at 99.06 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2716,7 +2714,6 @@
 	)
 	(label "SELECT"
 		(at 95.25 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2727,7 +2724,6 @@
 	)
 	(label "WS"
 		(at 182.88 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2738,7 +2734,6 @@
 	)
 	(label "SELECT"
 		(at 97.79 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2749,7 +2744,6 @@
 	)
 	(label "BCLK"
 		(at 99.06 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2760,7 +2754,6 @@
 	)
 	(label "WS"
 		(at 99.06 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2771,7 +2764,6 @@
 	)
 	(label "BCLK"
 		(at 182.88 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2907,145 +2899,6 @@
 			(project ""
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFerriteBeadsandChips:FB_600Z_0.5A_Murata-BLM18AG_0603")
-		(at 132.08 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2daffdd0-026f-48e7-a4cb-7407bc1e98ba")
-		(property "Reference" "FB1"
-			(at 134.5819 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "FB_600Z_0.5A_Murata-BLM18AG_0603"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:FB_0603_1608Metric"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf"
-			(at 147.32 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite Bead, 0603 [1608 Metric], 600 ohm, 500 mA, BLM18A, 0.38 ohm, ± 25%, General use"
-			(at 132.08 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "600Z/0.5A"
-			(at 134.5819 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BLM18AG601SN1D"
-			(at 147.32 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 147.32 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" ""
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 147.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 147.32 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9d61d22-e453-482a-aecf-cdcb6cc88470")
-		)
-		(pin "2"
-			(uuid "6394ee2d-8549-47aa-9643-473499da9d20")
-		)
-		(instances
-			(project ""
-				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -3995,6 +3848,145 @@
 			(project ""
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFerriteBeadsandChips:FB_600Z_0.3A_Murata-BLM15AG_0402")
+		(at 132.08 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88becf18-9c97-41ef-8757-d82bf6968e3a")
+		(property "Reference" "FB1"
+			(at 134.5819 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FB_600Z_0.3A_Murata-BLM15AG_0402"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:FB_0402_1005Metric"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796740059166/ENFA0018.pdf"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite Bead, 0402 [1005 Metric], 600 ohm, 300 mA, BLM15AG_SN, 0.6 ohm, ± 25%, General use"
+			(at 132.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "600Z/0.3A"
+			(at 134.5819 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM15AG601SN1D"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 147.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65cebc78-9458-47fb-bdc0-c0e37083bae4")
+		)
+		(pin "1"
+			(uuid "8c43a393-ea7e-4be4-afa2-be2ac9f31ee3")
+		)
+		(instances
+			(project ""
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
