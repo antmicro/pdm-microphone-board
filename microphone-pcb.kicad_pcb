@@ -8,7 +8,7 @@
 	)
 	(paper "A3")
 	(title_block
-		(title "audio-microphone")
+		(title "microphone-pcb")
 		(date "07.01.2025")
 		(rev "1.1.0")
 	)
@@ -322,7 +322,7 @@
 		)
 		(path "/3b054b0c-59d0-46ab-8569-511f643e6c81")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -7400,7 +7400,7 @@
 		)
 		(path "/88becf18-9c97-41ef-8757-d82bf6968e3a")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -7763,7 +7763,7 @@
 		)
 		(path "/a9e83f01-342b-4bbf-84eb-fdd2dda4a0b8")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -14854,7 +14854,7 @@
 		)
 		(path "/9ba6ef7f-408c-4616-8d14-af84a610956c")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -21945,7 +21945,7 @@
 		)
 		(path "/76dc6f84-d24d-48f1-bfd1-4d59544e2c2e")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd dnp)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -22272,7 +22272,7 @@
 		)
 		(path "/7034e755-8fa8-4ce8-95ed-f36818e0be3c")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.737 -3.226)
@@ -23333,7 +23333,7 @@
 		)
 		(path "/f34480a2-0041-4822-bbc1-9b8bbadd2895")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -27788,7 +27788,7 @@
 		)
 		(path "/c1e26ad5-e421-4c0d-9545-117352d8ef03")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -28151,7 +28151,7 @@
 		)
 		(path "/850fb6b1-e781-4a5e-83b4-9f745796d8c9")
 		(sheetname "Root")
-		(sheetfile "audio-microphone.kicad_sch")
+		(sheetfile "microphone-pcb.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)

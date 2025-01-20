@@ -2838,7 +2838,7 @@
 			(uuid "2e09c8eb-5a31-4288-8d57-e650bb938a30")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#FLG03")
 					(unit 1)
@@ -2970,7 +2970,7 @@
 			(uuid "91be81ae-955c-43d1-b0a0-dbf47b8bb84c")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR010")
 					(unit 1)
@@ -3187,7 +3187,7 @@
 			(uuid "17a5a257-46df-4d25-bd7f-80d100193d2e")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR012")
 					(unit 1)
@@ -3349,7 +3349,7 @@
 			(uuid "34814960-74d6-4ba1-bda3-f8619b1c5890")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR03")
 					(unit 1)
@@ -3549,7 +3549,7 @@
 			(uuid "be9f5d72-2265-4aae-a14e-eb9f2cc55b49")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#FLG02")
 					(unit 1)
@@ -3701,7 +3701,7 @@
 			(uuid "2138fcd0-a711-45fd-aee1-d2bfb874f500")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "R3")
 					(unit 1)
@@ -4058,7 +4058,7 @@
 			(uuid "794fa150-1e37-4295-a687-c41bf0fb808b")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR07")
 					(unit 1)
@@ -4124,7 +4124,7 @@
 			(uuid "5ce4746b-b014-4488-b8a9-46edb4cea2cb")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR08")
 					(unit 1)
@@ -4521,7 +4521,7 @@
 			(uuid "87d6811a-6a32-4f23-8ad3-1eedb345255f")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR09")
 					(unit 1)
@@ -4849,7 +4849,7 @@
 			(uuid "28ec9967-fa53-4bdf-b805-beade2a8354d")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR02")
 					(unit 1)
@@ -5010,7 +5010,7 @@
 			(uuid "1c0388f7-66e0-46e5-8b09-ace29e533c5f")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR013")
 					(unit 1)
@@ -5105,7 +5105,7 @@
 			(uuid "39b94ce9-b361-4c4e-ae06-5f2327557452")
 		)
 		(instances
-			(project "audio-microphone"
+			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR05")
 					(unit 1)
