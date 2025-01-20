@@ -7,7 +7,7 @@
 	(title_block
 		(title "Audio Microphone")
 		(date "07.01.2025")
-		(rev "1.0.0")
+		(rev "1.1.0")
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"

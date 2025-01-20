@@ -10,7 +10,7 @@
 	(title_block
 		(title "audio-microphone")
 		(date "07.01.2025")
-		(rev "1.0.0")
+		(rev "1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -28515,7 +28515,7 @@
 			(xy 239.980577 152.408327) (xy 239.975177 141.425437)
 		)
 		(height 14.190287)
-		(gr_text "10,9829 mm"
+		(gr_text "10.9829 mm"
 			(at 255.318162 146.90934 -89.97182916)
 			(layer "Dwgs.User")
 			(uuid "23440d47-46e9-4657-bd67-6e92a0f14681")
