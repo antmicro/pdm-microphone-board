@@ -1,8 +1,11 @@
 # Microphone module
 
+![image](assets/previews/orthoT.png)
+
 ## Overview
 
-This project contains KiCad design files for an audio receiver board of an experimental platform for audio latency analysis. 
+This project contains KiCad design files for an audio receiver board of an experimental platform for audio latency analysis.
+
 
 ## Project structure
 
