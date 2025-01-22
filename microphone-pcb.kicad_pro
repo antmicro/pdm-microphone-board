@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|236743482|151350393|c6f4cc16-75cf-4459-a434-5581fd82d2fd|b6612dbc-20ff-448d-83dd-83b1eb720b71",
-        "silk_edge_clearance|236743482|151350393|c6f4cc16-75cf-4459-a434-5581fd82d2fd|e7d9b304-30dd-4e80-bd16-1adc73fc8dd8",
-        "silk_edge_clearance|243219348|151354312|c6f4cc16-75cf-4459-a434-5581fd82d2fd|770bc55f-fc97-4f3e-baed-13c5707a2270",
-        "silk_edge_clearance|243219348|151354312|c6f4cc16-75cf-4459-a434-5581fd82d2fd|e67d156a-9d52-444a-aba7-c97a143fde86"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -130,8 +125,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.6,
-        "min_text_thickness": 0.0,
+        "min_text_height": 0.7,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.1,
         "min_track_width": 0.125,
         "min_via_annular_width": 0.125,
