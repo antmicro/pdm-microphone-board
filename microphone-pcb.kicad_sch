@@ -216,6 +216,212 @@
 				)
 			)
 		)
+		(symbol "antmicroCapacitors0402:C_180p_0402"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_180p_0402"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/04025A181JAT2A/"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 180 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, AVX 0402 MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "04025A181JAT2A"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AVX"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "180p"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_180p_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_180p_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicroCapacitors0402:C_1u_0402"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1732,6 +1938,239 @@
 				)
 			)
 		)
+		(symbol "antmicroTVSDiodes:TPD1E0B04_XDFN-2"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPD1E0B04_XDFN-2"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TPD1E0B04DPYR"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E0B04_XDFN-2_0_0"
+				(text ""
+					(at 7.62 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "TPD1E0B04_XDFN-2_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPD1E0B04_XDFN-2_1_1"
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.159 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.54 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -1.016) (xy 2.54 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.016 1.016) (xy 2.54 0) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.016) (xy 4.064 -1.016) (xy 2.54 0) (xy 4.064 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers hide)
@@ -2157,7 +2596,19 @@
 		)
 	)
 	(junction
-		(at 191.77 102.87)
+		(at 193.04 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d9bbfe8-1fa8-4147-9ab6-f99eab821beb")
+	)
+	(junction
+		(at 189.23 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e32493f-418b-4c1c-be3b-d8d3e9cfa503")
+	)
+	(junction
+		(at 212.09 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e97d183-bebe-4dd4-869a-6f51566afcc8")
@@ -2181,6 +2632,12 @@
 		(uuid "7a0e57f1-e92b-47d5-8062-376c0b1837da")
 	)
 	(junction
+		(at 185.42 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d660a29-f8b5-4ccc-b189-9255bc69397c")
+	)
+	(junction
 		(at 144.78 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2194,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 107.95) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c687fc-05b3-4c77-a2d7-3e9dd68aa46c")
+	)
+	(wire
+		(pts
 			(xy 123.19 59.69) (xy 132.08 59.69)
 		)
 		(stroke
@@ -2204,6 +2671,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 100.33) (xy 214.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1a16b2-000b-4ff6-810a-5d81d6a14bd0")
+	)
+	(wire
+		(pts
 			(xy 88.9 77.47) (xy 88.9 78.74)
 		)
 		(stroke
@@ -2211,6 +2688,36 @@
 			(type default)
 		)
 		(uuid "0ece9aae-c0c1-4a09-878a-9f7873748487")
+	)
+	(wire
+		(pts
+			(xy 189.23 109.22) (xy 189.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ceb7dd-195a-4fac-9eb3-aa217f9d5872")
+	)
+	(wire
+		(pts
+			(xy 185.42 107.95) (xy 189.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0da2ee-f41c-42dc-9369-6cb47ee66dad")
+	)
+	(wire
+		(pts
+			(xy 200.66 107.95) (xy 200.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df35fde-ce5a-44ab-bcf6-f1deb412f568")
 	)
 	(wire
 		(pts
@@ -2234,7 +2741,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 90.17) (xy 191.77 87.63)
+			(xy 212.09 90.17) (xy 212.09 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2251,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "416fef60-d0c1-4342-9e7e-2220732a66b6")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46295c02-b0c1-4769-97e6-d8884a21ece0")
 	)
 	(wire
 		(pts
@@ -2274,23 +2791,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 97.79) (xy 182.88 97.79)
+			(xy 189.23 107.95) (xy 193.04 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aea5a33-9dd5-4501-a693-92ddfd4d7188")
+		(uuid "57d9f39d-abda-44ba-9076-8c37f197c4c9")
 	)
 	(wire
 		(pts
-			(xy 194.31 95.25) (xy 182.88 95.25)
+			(xy 193.04 107.95) (xy 200.66 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c7fa6cf-36e5-44e1-974b-f35cde6a6b6e")
+		(uuid "60fa542b-364d-45df-b619-5f41c8b631df")
 	)
 	(wire
 		(pts
@@ -2314,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 102.87) (xy 191.77 109.22)
+			(xy 212.09 102.87) (xy 212.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2354,7 +2871,27 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 102.87) (xy 194.31 102.87)
+			(xy 185.42 106.68) (xy 185.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e80988a-34cb-4c29-a2e5-db91b8a2a8a0")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb55b20-0e4d-49be-8c37-52ad56754523")
+	)
+	(wire
+		(pts
+			(xy 212.09 102.87) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2364,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 90.17) (xy 191.77 90.17)
+			(xy 214.63 90.17) (xy 212.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2384,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 106.68) (xy 193.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6686e4-dcc3-4fbb-9e97-f9f5e61c5fd9")
+	)
+	(wire
+		(pts
 			(xy 137.16 59.69) (xy 144.78 59.69)
 		)
 		(stroke
@@ -2394,7 +2941,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 92.71) (xy 191.77 92.71)
+			(xy 200.66 101.6) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3542d7-1465-48d1-8880-f805825cd21d")
+	)
+	(wire
+		(pts
+			(xy 214.63 92.71) (xy 212.09 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2411,6 +2968,16 @@
 			(type default)
 		)
 		(uuid "a48a633f-599b-419b-a4b8-2e8b78dde7c0")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c74953-03d4-46a6-8131-e9ea5f748907")
 	)
 	(wire
 		(pts
@@ -2434,16 +3001,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 100.33) (xy 182.88 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0fde6d6-6b4a-458f-b0d4-39dc415df776")
-	)
-	(wire
-		(pts
 			(xy 222.25 143.51) (xy 222.25 144.78)
 		)
 		(stroke
@@ -2451,6 +3008,16 @@
 			(type default)
 		)
 		(uuid "b5cc829c-2b92-4ca3-9875-9e0d2bff9366")
+	)
+	(wire
+		(pts
+			(xy 193.04 97.79) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb20962a-3b49-439d-bea3-d0b604581081")
 	)
 	(wire
 		(pts
@@ -2481,6 +3048,26 @@
 			(type default)
 		)
 		(uuid "c1d73eda-43f9-4c43-a574-454c2a7c03ef")
+	)
+	(wire
+		(pts
+			(xy 185.42 95.25) (xy 214.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c325245a-2b5e-4c15-ba6a-4b2c524e62bd")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 177.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53d45da-bb90-4e14-9c0c-8853b0a78b15")
 	)
 	(wire
 		(pts
@@ -2544,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 92.71) (xy 191.77 102.87)
+			(xy 212.09 92.71) (xy 212.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +3219,7 @@
 	)
 	(text "1.8V - 3.3V"
 		(exclude_from_sim no)
-		(at 183.896 88.392 0)
+		(at 204.216 88.392 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2650,13 +3237,14 @@
 		)
 		(uuid "3a801316-07f1-4a2d-8e19-600d46c02bf6")
 	)
-	(text "Place as close as possible \nto Mics pins\n"
+	(text "Place as close as possible \nto Mics pins. \nPrioritize 220pF placement\n"
 		(exclude_from_sim no)
-		(at 119.126 80.01 0)
+		(at 106.68 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "4d4fe14b-e64a-41e1-a2fa-9848389d0efc")
 	)
@@ -2670,7 +3258,7 @@
 		)
 		(uuid "a04707b4-e7f4-45d9-9b96-bf621a97da60")
 	)
-	(text "SELECT = HIGH -> DATA transmits when WS = HIGH \nSELECT = LOW  -> DATA transmits when WS = LOW \n"
+	(text "SELECT = HIGH -> DATA transmits when WS = HIGH \nSELECT = LOW  -> DATA transmits when WS = LOW \n\nHIGH -> Right channel\nLOW -> Left channel\n"
 		(exclude_from_sim no)
 		(at 85.598 145.288 0)
 		(effects
@@ -2682,7 +3270,7 @@
 		(uuid "ed82c72d-a978-43f6-a289-4989bd0db13b")
 	)
 	(label "DATA"
-		(at 182.88 100.33 0)
+		(at 203.2 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2715,7 +3303,7 @@
 		(uuid "24d37215-78da-42da-bf33-6ce9fd38bb44")
 	)
 	(label "WS"
-		(at 182.88 97.79 0)
+		(at 203.2 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2759,7 +3347,7 @@
 		(uuid "89bb700c-b1fc-48b6-a7c5-5ba197809d1d")
 	)
 	(label "BCLK"
-		(at 182.88 95.25 0)
+		(at 203.2 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2768,6 +3356,126 @@
 			(justify left bottom)
 		)
 		(uuid "d4efdee7-61d7-466e-8eb9-2dfbcc97fd01")
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 200.66 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e9cafe3-3c8e-4586-81da-d843694115ec")
+		(property "Reference" "D4"
+			(at 203.2 104.5766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 203.2 107.1166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "547c65cb-0a59-4c1b-a899-c7f4d7e3a557")
+		)
+		(pin "1"
+			(uuid "5458e02f-5b2d-49ae-988e-c0d67bde614f")
+		)
+		(instances
+			(project "microphone-pcb"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
@@ -2836,17 +3544,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroFCCConnectors:Conn_FFC_Molex_5019510550")
-		(at 194.31 90.17 0)
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 177.8 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21d8e654-5ed0-496a-b23a-7dc1e7bb7bc3")
-		(property "Reference" "J1"
-			(at 203.2 94.615 0)
+		(uuid "1eb5247c-f484-41ee-ac49-60641946dc9d")
+		(property "Reference" "D1"
+			(at 180.34 104.5766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,8 +3563,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_FFC_Molex_5019510550"
-			(at 217.17 97.79 0)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 167.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,8 +3574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Conn_FFC_Molex_5019510550"
-			(at 217.17 100.33 0)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,8 +3585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/501/501951/5019510550_sd.pdf?inline"
-			(at 217.17 102.87 0)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 170.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,40 +3596,39 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector FFC/FPC SKT 5 Position 0.5mm Solder Straight Surface Mount T/R"
-			(at 217.17 105.41 0)
+		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Molex"
-			(at 217.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "501951-0550"
-			(at 203.2 97.155 0)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 180.34 107.1166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 217.17 110.49 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +3639,129 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 217.17 113.03 0)
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8095fe1c-008d-49eb-bc13-9082a1f78c6c")
+		)
+		(pin "1"
+			(uuid "08687024-a9c1-4bc8-aff8-456fe36585e0")
+		)
+		(instances
+			(project ""
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFCCConnectors:Conn_FFC_Molex_5019510550")
+		(at 214.63 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d8e654-5ed0-496a-b23a-7dc1e7bb7bc3")
+		(property "Reference" "J1"
+			(at 223.52 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_FFC_Molex_5019510550"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_FFC_Molex_5019510550"
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/501/501951/5019510550_sd.pdf?inline"
+			(at 237.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector FFC/FPC SKT 5 Position 0.5mm Solder Straight Surface Mount T/R"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "501951-0550"
+			(at 223.52 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 237.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 237.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,6 +3859,127 @@
 			(project ""
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 193.04 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2df7fa3b-a5eb-4d7e-8e11-e9787192f45c")
+		(property "Reference" "D3"
+			(at 195.58 104.5766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 195.58 107.1166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5d8a271-7c16-440a-99c2-5ddf00952bac")
+		)
+		(pin "1"
+			(uuid "0d94c8f4-7136-4d1d-9cbf-9a37641188f3")
+		)
+		(instances
+			(project "microphone-pcb"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3990,6 +4940,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_180p_0402")
+		(at 109.22 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88eef4ee-45df-4a9e-993c-573c4c96c955")
+		(property "Reference" "C4"
+			(at 111.76 88.8936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_180p_0402"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/04025A181JAT2A/"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 180 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, AVX 0402 MLCC"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "04025A181JAT2A"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "180p"
+			(at 111.76 91.4336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80f827ad-5558-451c-b042-8e9a66f028cf")
+		)
+		(pin "1"
+			(uuid "98f30a37-eac5-420d-b65e-b04f2b325ab5")
+		)
+		(instances
+			(project ""
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:VDD")
 		(at 110.49 113.03 0)
 		(unit 1)
@@ -4519,6 +5620,101 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 189.23 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b25fc9e8-93d3-49cf-bf43-56529d139e0f")
+		(property "Reference" "#PWR015"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a412ba-4b21-4a0e-a4ba-c30cc5a43b50")
+		)
+		(instances
+			(project "microphone-pcb"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_51R_0402")
 		(at 88.9 69.85 0)
 		(unit 1)
@@ -4651,6 +5847,127 @@
 			(project ""
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
+		(at 185.42 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0822c64-bbad-4285-b398-da68b214276d")
+		(property "Reference" "D2"
+			(at 187.96 104.5766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E0B04_XDFN-2"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 187.96 107.1166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 172.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 170.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f83560e6-e758-4db3-b41d-806f5882b0e1")
+		)
+		(pin "1"
+			(uuid "9ce759b1-34b2-473b-8862-eac9ea0bc19c")
+		)
+		(instances
+			(project "microphone-pcb"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4848,7 +6165,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")
-		(at 191.77 87.63 0)
+		(at 212.09 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4857,7 +6174,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea276973-7dd8-4c40-ad2b-68242b6f83c5")
 		(property "Reference" "#PWR011"
-			(at 191.77 91.44 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +6183,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 191.77 82.55 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +6191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +6200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +6209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +6326,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 191.77 109.22 0)
+		(at 212.09 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5018,7 +6335,7 @@
 		(fields_autoplaced yes)
 		(uuid "efbae2f4-2800-4f1a-bc3f-0792ac9fa2a5")
 		(property "Reference" "#PWR05"
-			(at 200.66 111.76 0)
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +6346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 114.3 0)
+			(at 212.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +6355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 116.84 0)
+			(at 220.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +6366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 121.92 0)
+			(at 220.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +6377,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 109.22 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +6386,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 200.66 116.84 0)
+			(at 220.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +6397,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 200.66 119.38 0)
+			(at 220.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,6 +6414,72 @@
 			(project "microphone-pcb"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 177.8 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f048778b-e7db-44fa-81ff-f43959a93493")
+		(property "Reference" "#PWR014"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e883533-952a-4151-bba9-89ad1b9b856d")
+		)
+		(instances
+			(project "microphone-pcb"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
