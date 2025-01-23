@@ -114,8 +114,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(aux_axis_origin 234.245108 163.047305)
-		(grid_origin 234.245108 163.047305)
+		(aux_axis_origin 234.615579 152.408328)
+		(grid_origin 239.9762 146.9266)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -170,7 +170,7 @@
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
 		(property "Reference" "C2"
-			(at 0.265 3.38 360)
+			(at 0.265 3.38 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6197d73e-fdee-4bb8-ab13-d752d8ec6e8b")
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at -1.022927 2.155213 360)
+			(at -1.022927 2.155213 0)
 			(layer "F.Fab")
 			(uuid "571374bc-56b8-4450-b153-4d05df25da08")
 			(effects
@@ -195,7 +195,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ebc3d40c-aed3-4d5f-a53d-2a858da8ac17")
@@ -207,7 +207,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "003c32f3-23f2-4358-8509-cc2925955cbd")
@@ -219,7 +219,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d3037f8-fd01-4473-8a04-f407b64cde33")
@@ -7187,7 +7187,7 @@
 			(uuid "c8cfda6e-1997-49d5-8215-fd47cbad336c")
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.939 3.399 360)
+			(at -0.939 3.399 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "66ca90e8-0147-432a-a35f-386055232484")
@@ -7200,7 +7200,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.939 4.599 360)
+			(at -0.939 4.599 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e296737d-d6a7-4f58-80ab-36751c9403e0")
@@ -7213,7 +7213,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.939 5.799 360)
+			(at -0.939 5.799 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa2b6897-6eb0-4c1f-8b1b-3a3a5e5cab3f")
@@ -7245,7 +7245,7 @@
 		)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7626,7 +7626,7 @@
 			)
 		)
 		(property "Value" "C_220p_0402"
-			(at -1.022927 2.155213 360)
+			(at -1.022927 2.155213 0)
 			(layer "F.Fab")
 			(uuid "2f1be091-20f3-4028-8438-913f6f8ab23e")
 			(effects
@@ -7638,7 +7638,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "92143154-0aaa-4273-a50e-f872b10774be")
@@ -7650,7 +7650,7 @@
 			)
 		)
 		(property "Datasheet" "https://spicat.kyocera-avx.com/product/mlcc/chartview/04025C221JAT2A/"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f9dfc845-a7ad-4d71-a005-8b86c13d1e07")
@@ -7662,7 +7662,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, MC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3af0d49-ac1f-4430-ac95-6af1fb27cf03")
@@ -14630,7 +14630,7 @@
 			(uuid "3fcfdeef-b42a-483a-a529-ffdcc529bb73")
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.939 5.799 360)
+			(at -0.939 5.799 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "142d1946-ea4f-43d7-aa1e-5878b64a9837")
@@ -14643,7 +14643,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.939 3.399 360)
+			(at -0.939 3.399 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "54c4a785-5828-4eb6-88da-e18d409da272")
@@ -14656,7 +14656,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.939 4.599 360)
+			(at -0.939 4.599 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa1dab32-6ed1-4773-86f6-e1108d157fa5")
@@ -14688,7 +14688,7 @@
 		)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21780,7 +21780,7 @@
 		)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -27429,7 +27429,7 @@
 		)
 		(model "${ANT3DMDL}/Conn_FFC_Molex_5019510550.step"
 			(offset
-				(xyz -0.14 -0 0.52)
+				(xyz -0.14 0 0.52)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -31874,7 +31874,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R1"
-			(at 1.115 -1.12 360)
+			(at 1.115 -1.12 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "be88b27d-3155-4130-a0d8-764bd9b0e69e")
@@ -31887,7 +31887,7 @@
 			)
 		)
 		(property "Value" "R_51R_0402"
-			(at -1.011843 1.772046 360)
+			(at -1.011843 1.772046 0)
 			(layer "F.Fab")
 			(uuid "5a8c4603-0305-4575-9121-07be443f63bf")
 			(effects
@@ -31899,7 +31899,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0a5a9f6-d698-4057-8456-a3dc15c0dd9b")
@@ -31911,7 +31911,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "871b51fc-f785-49e2-b646-5c001aa132b6")
@@ -31923,7 +31923,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 51 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "88060bfa-6336-40a0-858d-bebe7e8a798b")
@@ -32153,7 +32153,7 @@
 			(uuid "cf7b0ed8-54c4-4ca4-a043-03fd5aae8dab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.95 3.168 360)
+			(at -0.95 3.168 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47163fe2-67e7-4027-a225-322cd92680d7")
@@ -32166,7 +32166,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.949999 5.169 360)
+			(at -0.949999 5.169 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64755694-f724-443d-bb47-acb240672540")
@@ -32179,7 +32179,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.95 4.169 360)
+			(at -0.95 4.169 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "962d5818-1af3-484a-bedc-14b56133d08b")
@@ -32228,7 +32228,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2"
-			(at 1.74 -1.12 360)
+			(at 1.74 -1.12 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fdb665ef-99d9-40b2-921a-feb5da302665")
@@ -32241,7 +32241,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at -1.011843 1.772046 360)
+			(at -1.011843 1.772046 0)
 			(layer "F.Fab")
 			(uuid "118fcd7b-21ed-4ddd-a743-10539ea5a6bc")
 			(effects
@@ -32253,7 +32253,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a9be51a-0bd3-42ee-80b4-97bbebb818db")
@@ -32265,7 +32265,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "796605c9-ea0b-45ff-8fdd-ad8291b7f0eb")
@@ -32277,7 +32277,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "588b6327-e071-456f-853c-24ddad7b00de")
@@ -32520,7 +32520,7 @@
 			(uuid "2477adc5-272d-4497-ad46-2a71bcf38f93")
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.949999 5.169 360)
+			(at -0.949999 5.169 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56a9d06a-90c8-4f3b-b8e4-0ba69c2bb818")
@@ -32533,7 +32533,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.95 3.168 360)
+			(at -0.95 3.168 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7fa9b3da-d3f0-4108-a1b2-7291aba81044")
@@ -32546,7 +32546,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.95 4.169 360)
+			(at -0.95 4.169 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8bcf356-94d3-4c9d-bb35-f876751ab746")
