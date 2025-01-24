@@ -33641,6 +33641,26 @@
 		)
 	)
 	(gr_line
+		(start 238.7312 142.1966)
+		(end 237.7812 142.1966)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f3244d6-fb35-42f8-8160-fd811989d691")
+	)
+	(gr_line
+		(start 237.2262 142.7316)
+		(end 237.2262 143.6816)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca97de96-d154-4b85-900f-46f67d47c376")
+	)
+	(gr_line
 		(start 239.975 134.8)
 		(end 239.975 160.45)
 		(stroke
@@ -33791,7 +33811,7 @@
 		(uuid "c6f4cc16-75cf-4459-a434-5581fd82d2fd")
 	)
 	(gr_text "Audio\nMicrophone\nRev. ${REVISION}"
-		(at 239.955108 151.027305 0)
+		(at 239.9462 151.5266 0)
 		(layer "B.SilkS")
 		(uuid "31ede48c-eab0-4717-932f-f2886f7631f5")
 		(effects
@@ -33803,7 +33823,7 @@
 		)
 	)
 	(gr_text "SHA:########"
-		(at 239.965108 147.637305 0)
+		(at 239.9562 148.1366 0)
 		(layer "B.SilkS")
 		(uuid "bbf71226-b1ca-49fd-8964-232a96098897")
 		(effects
@@ -33812,6 +33832,30 @@
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "L"
+		(at 236.5562 144.0666 -0)
+		(layer "F.SilkS")
+		(uuid "8af6aca4-5596-4130-9020-be02ee27f6b5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R\n"
+		(at 238.7862 142.4066 -0)
+		(layer "F.SilkS")
+		(uuid "e69ef8c2-ce8b-47bd-9236-4f39939d18aa")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(dimension
