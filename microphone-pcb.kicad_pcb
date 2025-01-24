@@ -8,8 +8,8 @@
 	)
 	(paper "A3")
 	(title_block
-		(title "microphone-pcb")
-		(date "07.01.2025")
+		(title "Audio Microphone")
+		(date "2025-01-24")
 		(rev "1.2.0")
 	)
 	(layers
@@ -168,7 +168,7 @@
 		(uuid "0ae57fd8-ce7f-4961-9be9-1314051521f4")
 		(at 240.1962 151.8666)
 		(property "Reference" "D2"
-			(at 0 -0.799999 360)
+			(at 0 -0.799999 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3d9bb69d-79de-4946-af97-a500967c6dee")
@@ -181,7 +181,7 @@
 			)
 		)
 		(property "Value" "TPD1E0B04_XDFN-2"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "3bb46c95-fb17-44dd-a1f4-896ead32d66e")
 			(effects
@@ -193,7 +193,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58024d23-5724-46c8-9dc3-afe980006b0e")
@@ -205,7 +205,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f10aa21-1937-4162-87bb-4b2afcb67005")
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "48e6e7de-2d8f-485f-accd-e4785443777c")
@@ -229,7 +229,7 @@
 			)
 		)
 		(property "MPN" "TPD1E0B04DPYR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52c5acdc-0e30-4e12-992f-1625d6baacb1")
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7958034-07bd-47db-a9b9-955a43a622ab")
@@ -356,7 +356,7 @@
 			(uuid "60943557-bc38-495c-a5bb-073c003c7b96")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.8 3.2 360)
+			(at -0.8 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0defb95d-ec98-4820-8b0a-f39b737c59e3")
@@ -369,7 +369,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.799999 5.6 360)
+			(at -0.799999 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a6190bc-4771-4473-94aa-ef4a9adac300")
@@ -382,7 +382,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.8 4.4 360)
+			(at -0.8 4.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fabc0527-3ac8-424b-9e19-c5380cfeb24e")
@@ -433,7 +433,7 @@
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
 		(property "Reference" "C2"
-			(at 0.265 3.38 360)
+			(at 0.265 3.38 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "34605ca5-8319-4895-b74f-5982ab350fcb")
@@ -446,7 +446,7 @@
 			)
 		)
 		(property "Value" "C_100n_50V_X8L_0402"
-			(at -1.022927 2.155213 360)
+			(at -1.022927 2.155213 0)
 			(layer "F.Fab")
 			(uuid "3886bb82-e7ea-4f1d-97ad-44d1031c411f")
 			(effects
@@ -458,7 +458,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b076fd7-6d44-4f74-86a7-186e831ab98e")
@@ -470,7 +470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b261f047-7ba5-482f-85f5-67e553e9e500")
@@ -482,7 +482,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "700ee9d8-505c-4fc6-bf52-cfe98e8fa412")
@@ -7450,7 +7450,7 @@
 			(uuid "a09de015-e4c6-4668-9dba-b4ee8da4f9e0")
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.939 3.399 360)
+			(at -0.939 3.399 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a715d21-2cdc-450e-afbe-fb4cf32815f5")
@@ -7463,7 +7463,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.939 4.599 360)
+			(at -0.939 4.599 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4e6dfbf6-34e3-4768-bd6e-202d8153244a")
@@ -7476,7 +7476,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.939 5.799 360)
+			(at -0.939 5.799 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8586450c-e906-419f-9346-07c885da4a31")
@@ -22058,7 +22058,7 @@
 		(uuid "7df002f0-9bdc-4c3c-b69a-dbc3d2145337")
 		(at 242.2862 146.3566)
 		(property "Reference" "D3"
-			(at 0 -0.799999 360)
+			(at 0 -0.799999 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2d337dc4-4b84-496e-b0bf-214a3aa815fa")
@@ -22071,7 +22071,7 @@
 			)
 		)
 		(property "Value" "TPD1E0B04_XDFN-2"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "ebc61cc5-c9de-4ecf-993c-4ae84573ed72")
 			(effects
@@ -22083,7 +22083,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87a4fcc6-151a-460c-8bc4-595b38d5f3f4")
@@ -22095,7 +22095,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b4bc8fed-b336-4a40-a8b4-e3533b7a821a")
@@ -22107,7 +22107,7 @@
 			)
 		)
 		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "48e5700a-e6a7-4aab-b2f6-934a89f48b9e")
@@ -22119,7 +22119,7 @@
 			)
 		)
 		(property "MPN" "TPD1E0B04DPYR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d19ab8c3-5d95-4390-9aa2-390d7367039e")
@@ -22131,7 +22131,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70c858fe-afb3-4ccb-ab1f-59639dc3f3d9")
@@ -22246,7 +22246,7 @@
 			(uuid "203cb7fc-2f76-48ee-af42-723da86c37ce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.8 3.2 360)
+			(at -0.8 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "692503d7-f75e-4c88-b22f-20743f0e865e")
@@ -22259,7 +22259,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.799999 5.6 360)
+			(at -0.799999 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "845df259-24d6-4162-a6f0-c99e773bbf16")
@@ -22272,7 +22272,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.8 4.4 360)
+			(at -0.8 4.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a8f9429-5965-45aa-b633-093f4148e857")
