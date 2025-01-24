@@ -1,9 +1,10 @@
 {
     "id": "microphone-pcb",
     "componentIds": [
-        "kyocera-avx-04025c221jat2a",
-        "murata-grm155r61h104ke14d",
+        "avx-04025a181jat2a",
+        "murata-gcm155l8eh104ke07d",
         "tdk-c1005x6s1a105k050bc",
+        "texas-instruments-tpd1e0b04dpyr",
         "murata-blm15ag601sn1d",
         "molex-501951-0550",
         "knowles-sph0645lm4h-b",
