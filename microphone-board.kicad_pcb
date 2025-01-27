@@ -8,7 +8,7 @@
 	)
 	(paper "A3")
 	(title_block
-		(title "Audio Microphone")
+		(title "Microphone board")
 		(date "2025-01-24")
 		(rev "1.2.0")
 	)
@@ -280,7 +280,7 @@
 		)
 		(path "/d0822c64-bbad-4285-b398-da68b214276d")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.725 -0.475)
@@ -586,7 +586,7 @@
 		)
 		(path "/12b6b5a0-73a7-4e59-8a32-0c28d3d1457a")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -7665,7 +7665,7 @@
 		)
 		(path "/88becf18-9c97-41ef-8757-d82bf6968e3a")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -8029,7 +8029,7 @@
 		)
 		(path "/88eef4ee-45df-4a9e-993c-573c4c96c955")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -15121,7 +15121,7 @@
 		)
 		(path "/9ba6ef7f-408c-4616-8d14-af84a610956c")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.925 -0.47)
@@ -22170,7 +22170,7 @@
 		)
 		(path "/2df7fa3b-a5eb-4d7e-8e11-e9787192f45c")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.725 -0.475)
@@ -22476,7 +22476,7 @@
 		)
 		(path "/76dc6f84-d24d-48f1-bfd1-4d59544e2c2e")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_poly
 			(pts
@@ -22807,7 +22807,7 @@
 		)
 		(path "/21d8e654-5ed0-496a-b23a-7dc1e7bb7bc3")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.88 -2.8)
@@ -28084,7 +28084,7 @@
 		)
 		(path "/f34480a2-0041-4822-bbc1-9b8bbadd2895")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -32510,7 +32510,7 @@
 		)
 		(path "/0e9cafe3-3c8e-4586-81da-d843694115ec")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.725 -0.475)
@@ -32803,7 +32803,7 @@
 		)
 		(path "/c1e26ad5-e421-4c0d-9545-117352d8ef03")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -33127,7 +33127,7 @@
 		)
 		(path "/1eb5247c-f484-41ee-ac49-60641946dc9d")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.725 -0.475)
@@ -33433,7 +33433,7 @@
 		)
 		(path "/850fb6b1-e781-4a5e-83b4-9f745796d8c9")
 		(sheetname "Root")
-		(sheetfile "microphone-pcb.kicad_sch")
+		(sheetfile "microphone-board.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -33810,7 +33810,7 @@
 		(layer "Edge.Cuts")
 		(uuid "c6f4cc16-75cf-4459-a434-5581fd82d2fd")
 	)
-	(gr_text "Audio\nMicrophone\nRev. ${REVISION}"
+	(gr_text "Microphone\nBoard\nRev. ${REVISION}"
 		(at 239.9462 151.5266 0)
 		(layer "B.SilkS")
 		(uuid "31ede48c-eab0-4717-932f-f2886f7631f5")

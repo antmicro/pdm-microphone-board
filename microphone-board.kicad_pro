@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "microphone-pcb.kicad_pro",
+    "filename": "microphone-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -528,7 +528,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": "microphone-pcb.wrl"
+      "vrml": "microphone-board.wrl"
     },
     "page_layout_descr_file": ""
   },
