@@ -1,4 +1,4 @@
-# Microphone module
+# Microphone board
 
 ![image](assets/previews/orthoT.png)
 
