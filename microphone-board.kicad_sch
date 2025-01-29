@@ -5,7 +5,7 @@
 	(uuid "4a2cf8c5-6ba3-448d-b2e4-bea2166340e3")
 	(paper "A4")
 	(title_block
-		(title "Microphone board")
+		(title "Microphone Board")
 		(date "2025-01-29")
 		(rev "1.3.0")
 	)
@@ -2374,12 +2374,6 @@
 		)
 	)
 	(junction
-		(at 185.42 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e32493f-418b-4c1c-be3b-d8d3e9cfa503")
-	)
-	(junction
 		(at 203.2 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2404,12 +2398,6 @@
 		(uuid "7a0e57f1-e92b-47d5-8062-376c0b1837da")
 	)
 	(junction
-		(at 181.61 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d660a29-f8b5-4ccc-b189-9255bc69397c")
-	)
-	(junction
 		(at 144.78 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2426,16 +2414,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eef9b7a1-9564-46b0-b71c-6878fe678ad3")
-	)
-	(wire
-		(pts
-			(xy 173.99 106.68) (xy 181.61 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c687fc-05b3-4c77-a2d7-3e9dd68aa46c")
 	)
 	(wire
 		(pts
@@ -2469,27 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 107.95) (xy 185.42 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ceb7dd-195a-4fac-9eb3-aa217f9d5872")
-	)
-	(wire
-		(pts
-			(xy 181.61 106.68) (xy 185.42 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a0da2ee-f41c-42dc-9369-6cb47ee66dad")
-	)
-	(wire
-		(pts
-			(xy 189.23 106.68) (xy 189.23 105.41)
+			(xy 189.23 105.41) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 99.06) (xy 173.99 100.33)
+			(xy 172.72 99.06) (xy 172.72 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2556,16 +2514,6 @@
 			(type default)
 		)
 		(uuid "505c697f-c3e4-4f19-a829-a3a41e0b3810")
-	)
-	(wire
-		(pts
-			(xy 185.42 106.68) (xy 189.23 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fa542b-364d-45df-b619-5f41c8b631df")
 	)
 	(wire
 		(pts
@@ -2799,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 173.99 106.68)
+			(xy 172.72 105.41) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3103,7 +3051,7 @@
 		(dnp no)
 		(uuid "0e9cafe3-3c8e-4586-81da-d843694115ec")
 		(property "Reference" "D4"
-			(at 191.77 103.3066 90)
+			(at 190.5 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,14 +3103,13 @@
 			)
 		)
 		(property "MPN" "TPD1E0B04DPYR"
-			(at 191.77 105.8466 90)
+			(at 186.69 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
@@ -3434,16 +3381,15 @@
 	)
 	(symbol
 		(lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2")
-		(at 173.99 100.33 270)
+		(at 172.72 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1eb5247c-f484-41ee-ac49-60641946dc9d")
 		(property "Reference" "D1"
-			(at 176.53 103.3066 90)
+			(at 173.99 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3399,7 @@
 			)
 		)
 		(property "Value" "TPD1E0B04_XDFN-2"
-			(at 163.83 115.57 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3410,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
-			(at 168.91 115.57 0)
+			(at 167.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3421,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
-			(at 166.37 115.57 0)
+			(at 165.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3432,7 @@
 			)
 		)
 		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
-			(at 173.99 100.33 0)
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,18 +3441,17 @@
 			)
 		)
 		(property "MPN" "TPD1E0B04DPYR"
-			(at 176.53 105.8466 90)
+			(at 169.926 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 161.29 115.57 0)
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3462,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 158.75 115.57 0)
+			(at 157.48 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3473,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 156.21 115.57 0)
+			(at 154.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3640,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23e4a215-6374-483f-bda6-aa5a7afa9a55")
 		(property "Reference" "#PWR06"
 			(at 113.03 59.69 0)
@@ -3707,7 +3651,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 113.03 50.8 0)
+			(at 113.03 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,6 +3692,100 @@
 			(project ""
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 172.72 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "379a02a1-a53e-40f1-960c-b113f26289ea")
+		(property "Reference" "#PWR016"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 181.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554681a0-329d-4f9b-8a25-a818b5fcdd0b")
+		)
+		(instances
+			(project "microphone-board"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3827,7 +3865,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41d34f99-d4e3-421c-9b9b-0ca7b5a10ac1")
 		(property "Reference" "#PWR012"
 			(at 144.78 59.69 0)
@@ -3839,7 +3876,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 144.78 50.8 0)
+			(at 144.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4881,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8dd38336-bca4-493e-9c7d-7bea8c936152")
 		(property "Reference" "#PWR07"
 			(at 110.49 116.84 0)
@@ -4856,7 +4892,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 110.49 107.95 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,16 +5252,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 185.42 107.95 0)
+		(at 189.23 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b25fc9e8-93d3-49cf-bf43-56529d139e0f")
 		(property "Reference" "#PWR015"
-			(at 194.31 110.49 0)
+			(at 198.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 113.03 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 115.57 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 120.65 0)
+			(at 198.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 107.95 0)
+			(at 189.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5311,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 194.31 115.57 0)
+			(at 198.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5322,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 194.31 118.11 0)
+			(at 198.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,10 +5491,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0822c64-bbad-4285-b398-da68b214276d")
 		(property "Reference" "D2"
-			(at 184.15 103.3066 90)
+			(at 182.88 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,14 +5545,13 @@
 			)
 		)
 		(property "MPN" "TPD1E0B04DPYR"
-			(at 184.15 105.8466 90)
+			(at 178.816 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
@@ -5564,6 +5597,100 @@
 			(project "microphone-board"
 				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 181.61 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d29e608c-9c87-4924-b2fa-07950ca09129")
+		(property "Reference" "#PWR017"
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4734b812-25ef-48ca-8fc0-553128603ef9")
+		)
+		(instances
+			(project "microphone-board"
+				(path "/4a2cf8c5-6ba3-448d-b2e4-bea2166340e3"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5894,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea276973-7dd8-4c40-ad2b-68242b6f83c5")
 		(property "Reference" "#PWR011"
 			(at 203.2 90.17 0)
@@ -5779,7 +5905,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 203.2 81.28 0)
+			(at 203.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +6054,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efbae2f4-2800-4f1a-bc3f-0792ac9fa2a5")
 		(property "Reference" "#PWR05"
 			(at 212.09 110.49 0)
@@ -5942,7 +6067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 113.03 0)
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,16 +6142,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")
-		(at 173.99 99.06 0)
+		(at 172.72 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f048778b-e7db-44fa-81ff-f43959a93493")
 		(property "Reference" "#PWR014"
-			(at 173.99 102.87 0)
+			(at 172.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6159,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 173.99 93.98 0)
+			(at 172.72 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

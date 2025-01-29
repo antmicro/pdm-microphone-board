@@ -32141,7 +32141,7 @@
 		(uuid "c0357591-6907-4ae7-83fd-03de61713e91")
 		(at 242.1162 146.2966)
 		(property "Reference" "D4"
-			(at 0 -0.799999 360)
+			(at 0 -0.799999 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ccd9747a-f975-4f51-b923-9931007c08bb")
@@ -32154,7 +32154,7 @@
 			)
 		)
 		(property "Value" "TPD1E0B04_XDFN-2"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.Fab")
 			(uuid "3ffe0754-8e28-4120-86c2-b25174530a43")
 			(effects
@@ -32166,7 +32166,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:XDFN-2_1x0.60mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bb80fa7-fb28-422b-a62d-eacee56c0ad1")
@@ -32178,7 +32178,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/tpd1e0b04"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d6d6e1a-2325-4a05-8086-2b2066c1a243")
@@ -32190,7 +32190,7 @@
 			)
 		)
 		(property "Description" "Bidirectional TVS, 8 kV,  XDFN-2, 3.6 V, 0.18 pF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96a4f48e-62e8-40e4-a7f6-348c298bf383")
@@ -32202,7 +32202,7 @@
 			)
 		)
 		(property "MPN" "TPD1E0B04DPYR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7120a1c4-3032-4061-b4ca-e28851ec5b3f")
@@ -32214,7 +32214,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99bca375-c4d0-484f-a22d-501e9e570f93")
@@ -32329,7 +32329,7 @@
 			(uuid "9afa2a61-af98-4447-a76a-8ec62bd565c3")
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.799999 5.6 360)
+			(at -0.799999 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6364c753-dfa1-45fe-bdea-c59559e45e9f")
@@ -32342,7 +32342,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.8 4.4 360)
+			(at -0.8 4.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1c27d01-161c-4159-91d7-6978b55d0630")
@@ -32355,7 +32355,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.8 3.2 360)
+			(at -0.8 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eab91131-7432-4c44-b2c1-09a47067db82")
@@ -32406,7 +32406,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R1"
-			(at 1.115 -1.120001 360)
+			(at 1.115 -1.120001 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "be88b27d-3155-4130-a0d8-764bd9b0e69e")
@@ -32419,7 +32419,7 @@
 			)
 		)
 		(property "Value" "R_51R_0402"
-			(at -1.011843 1.772046 360)
+			(at -1.011843 1.772046 0)
 			(layer "F.Fab")
 			(uuid "5a8c4603-0305-4575-9121-07be443f63bf")
 			(effects
@@ -32431,7 +32431,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0a5a9f6-d698-4057-8456-a3dc15c0dd9b")
@@ -32443,7 +32443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "871b51fc-f785-49e2-b646-5c001aa132b6")
@@ -32455,7 +32455,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 51 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "88060bfa-6336-40a0-858d-bebe7e8a798b")
@@ -32685,7 +32685,7 @@
 			(uuid "cf7b0ed8-54c4-4ca4-a043-03fd5aae8dab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.95 3.168 360)
+			(at -0.95 3.168 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47163fe2-67e7-4027-a225-322cd92680d7")
@@ -32698,7 +32698,7 @@
 			)
 		)
 		(fp_text user "License: Apache-2.0"
-			(at -0.949999 5.169 360)
+			(at -0.949999 5.169 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64755694-f724-443d-bb47-acb240672540")
@@ -32711,7 +32711,7 @@
 			)
 		)
 		(fp_text user "Author: Antmicro"
-			(at -0.95 4.169 360)
+			(at -0.95 4.169 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "962d5818-1af3-484a-bedc-14b56133d08b")
