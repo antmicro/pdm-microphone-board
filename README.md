@@ -6,7 +6,7 @@ Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for a Microphone Board equipped with an SPH0644LM4H-1 microphone.
+This project contains open hardware design files for a microphone board with an SPH0644LM4H-1 microphone.
 The board break-routes PDM signals from the microphone to a zero insertion force connector.
 Additionally, the board provides voltage filtering and ESD protection.
 
