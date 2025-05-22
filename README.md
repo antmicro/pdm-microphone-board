@@ -2,6 +2,7 @@
 
 Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
 
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/pdm-microphone-board/)
 ![image](assets/previews/orthoT.png)
 
 ## Overview
