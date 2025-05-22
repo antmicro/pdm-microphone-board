@@ -65,8 +65,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(color "Polyimide")
-				(thickness 0.1)
+				(thickness 0.12)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -77,7 +76,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 1.2)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -88,7 +87,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.12)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
